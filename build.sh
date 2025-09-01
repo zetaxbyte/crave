@@ -71,6 +71,6 @@ make clean
 
 . build/envsetup.sh
 sleep 0.5
-lunch lineage_realme_trinket-userdebug
+lunch nad_realme_trinket-user
 sleep 0.5
-m bacon
+mka nad
