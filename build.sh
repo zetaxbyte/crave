@@ -66,6 +66,10 @@ echo -e "\n\033[96m==========crave is wonderfully amazing==========\033[0m\n"
 echo -e "\n$merah██ $orange██ $kuning██ $hijau██ $cyan██ $biru██ $ungu██ $putih██ $normal"
 echo -e "$merah██ $orange██ $kuning██ $hijau██ $cyan██ $biru██ $ungu██ $putih██ $normal\n"
 
+#symlink libncurses 6 >> 5 for Q based
+sudo ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.6 /usr/lib/x86_64-linux-gnu/libncurses.so.5
+sudo ln -s /usr/lib/x86_64-linux-gnu/libtinfo.so.6   /usr/lib/x86_64-linux-gnu/libtinfo.so.5
+
 #run build
 make clean
 
