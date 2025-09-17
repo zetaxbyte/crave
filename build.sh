@@ -43,7 +43,7 @@ hash -r
 echo -e "\n\033[92msetup dependecy build for e2fsprogs\033[0m\n"
 
 sudo apt update -y
-sudo apt install build-essential libblkid-dev uuid-dev libuuid1 libncurses5-dev -y
+sudo apt install build-essential libblkid-dev uuid-dev libuuid1 -y
 
 #wget e2fsprogs latests
 wget http://mirrors.kernel.org/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.46.5.orig.tar.gz
