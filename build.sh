@@ -75,6 +75,6 @@ make clean
 
 . build/envsetup.sh
 sleep 0.5
-lunch qassa_realme_trinket-user
+lunch nad_realme_trinket-user
 sleep 0.5
-mka qassa -j$(nproc --all)
+mka nad -j$(nproc --all)
